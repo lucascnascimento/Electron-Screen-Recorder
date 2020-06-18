@@ -8,7 +8,6 @@ const recordedChunks = [];
 
 // Get buttons and element
 const videoElement = document.querySelector("video");
-const messageBox = document.getElementById("warningMessage");
 
 const startBtn = document.getElementById("startBtn");
 startBtn.onclick = (e) => {
@@ -17,9 +16,10 @@ startBtn.onclick = (e) => {
     startBtn.classList.add("is-danger");
     startBtn.innerText = "Recording";
   } else {
-    messageBox.style.display = "block";
+    videoSelectBtn.innerText = "Click here to choose a video source first!";
+    videoSelectBtn.classList.add("is-warning");
     setTimeout(() => {
-      messageBox.style.display = "none";
+      videoSelectBtn.classList.remove("is-warning");
     }, 3000);
   }
 };
