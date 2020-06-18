@@ -11,9 +11,8 @@ This is my first app made with electron. Its a screen recorder, it allows the us
 # Getting Started
 
 <ul>
-  <li>Clone the repository 
-  `git clone https://github.com/lucascnascimento/Electron-Screen-Recorder.git`
+  <li>Clone the repository <code>git clone https://github.com/lucascnascimento/Electron-Screen-Recorder.git</code>
   </li>
-  <li>run `npm install` inside the main folder</li>
-  <li>run `npm start` to see it running in development mode</li>
+  <li>run <code>npm install</code> inside the main folder</li>
+  <li>run <code>npm start</code> to see it running in development mode</li>
 </ul>
