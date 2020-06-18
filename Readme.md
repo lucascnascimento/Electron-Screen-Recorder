@@ -12,8 +12,8 @@ This is my first app made with electron. Its a screen recorder, it allows the us
 
 <ul>
   <li>Clone the repository 
-  ```bash git clone https://github.com/lucascnascimento/Electron-Screen-Recorder.git```
+  `bash git clone https://github.com/lucascnascimento/Electron-Screen-Recorder.git`
   </li>
-  <li>run ```bash npm install``` inside the main folder</li>
-  <li>run ```bash npm start``` to see it running in development mode</li>
+  <li>run `bash npm install` inside the main folder</li>
+  <li>run `bash npm start` to see it running in development mode</li>
 </ul>
